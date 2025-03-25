@@ -3,23 +3,23 @@ import  "./Layout.css";
 
 export default function Layout() {
     return (
-      <div className=" d-flex align-items-center flex-row flex-wrap justify-content-center">
+      <div className=" d-flex align-items-center flex-row flex-wrap justify-content-center container-fluid p-0 m-0">
           
-            <header className="  w-100 row d-flex align-items-center justify-content-between headerSpace " >
+            <header className=" row  w-100 d-flex align-items-center justify-content-between headerSpace " >
 
-            <div className="col-6 d-flex flex-column align-items-center">
+            <div className="col-6 d-flex flex-column align-items-center pb-2">
                 <h3 className="nameColor bold m-0 p-0">K<span className="spanColor">/</span>NET<span className="spanColor">/</span>C</h3>
                 <h6 className="m-0 p-0 bold h6fontsize spanColor">moving people</h6>
-                </div>
-                <div className="col-6 d-flex flex-column align-items-center">
+            </div>
+            <div className="col-6 d-flex flex-column align-items-center">
                     <h5 className="spanColor h5fontsize bold">Talk to a Consolidation Specialist (888) 888-888 </h5>
 
-                </div>    
+            </div>    
               
         </header>
       
         <Outlet />
-        <footer className="row col-12 d-flex align-items-center justify-content-center p-5 footerColor">
+        <footer className="row col-12 d-flex align-items-center justify-content-center p-5 footerColor w-100">
             <row className="col-8 m-3">
             <p>
              Thise site is not a part of the Facebook Inc. Additionally, Facebook does NOT endorse this site. FACEBOOK is a trademark of FACEBOOK, Inc. This site is not a part of the YouTube website or Google, LLC. Additionally, this site is NOT endorsed by  Google in any way.

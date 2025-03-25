@@ -1,20 +1,21 @@
-.dropdown-menu {
+.custom-dropdown-menu {
     background-color: rgb(96, 102, 109);
     color: white;
-    
+    z-index: 1050; 
+    position: absolute;
 }
 
-.custom-dropdown-toggle:hover,
+/* .custom-dropdown-toggle:hover,
 .custom-dropdown-toggle:focus,
 .custom-dropdown-toggle:active {
     background-color: white !important;
     color: black !important;
     box-shadow: none !important;
-}
+} */
 
 .custom-dropdown-menu .dropdown-item:hover,
 .custom-dropdown-menu .dropdown-item:focus,
 .custom-dropdown-menu .dropdown-item:active {
-    background-color: blue !important; /* Simple blue */
+    background-color: blue !important; 
     color: white !important;
 }

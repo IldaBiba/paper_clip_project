@@ -1,5 +1,6 @@
 div{
     font-family: 'Poppins','Montserrat', sans-serif, ;
+    
 }
 
 
@@ -8,9 +9,12 @@ div{
 }
 
 .headerSpace{ 
-    padding: 15px 0px 20px 0px;
+    /* padding: 15px 0px 20px 0px; */
     border-bottom: 1px solid lightslategray;
-}
+    padding-top: 15px;
+    padding-bottom: 15px;
+  
+} 
 
 .bold {
     font-weight: bold !important;
@@ -28,6 +32,8 @@ div{
 
 .footerColor {
     background-color: #ebebeb;
+    position:relative;
+    z-index: 1; 
 }
 
 footer p {

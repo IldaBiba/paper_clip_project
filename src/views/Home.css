@@ -6,8 +6,45 @@
     font-size: 3rem;
     font-weight: 800;
 
-}      
+}     
+
+
 
 .btn-radious{
     border-radius: 15px;
+    font-weight: 700;
+    font-size: 20px;
+
 }
+
+.policyFixed {
+        width: 100%;
+        text-align: center;
+        font-size: 13px;
+        overflow: hidden !important;
+       
+      
+}
+
+p{
+    margin: 5px;
+    margin-top: 15px;
+}
+
+input{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.btn-submit {
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 20px;
+    width: 60%;
+    background-color: #799efe;
+    color: white;
+    border: white;
+}
+
