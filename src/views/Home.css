@@ -1,0 +1,13 @@
+.btnColor{
+    border: 1px solid #000;
+}
+
+.h3Color{
+    font-size: 3rem;
+    font-weight: 800;
+
+}      
+
+.btn-radious{
+    border-radius: 15px;
+}

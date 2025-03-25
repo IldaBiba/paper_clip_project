@@ -1,0 +1,35 @@
+div{
+    font-family: 'Poppins','Montserrat', sans-serif, ;
+}
+
+
+.spanColor{
+    color: #0074c2 !important
+}
+
+.headerSpace{ 
+    padding: 15px 0px 20px 0px;
+    border-bottom: 1px solid lightslategray;
+}
+
+.bold {
+    font-weight: bold !important;
+    font-weight: 700 !important;
+    
+}
+
+.h6fontsize{
+    font-size: 0.8rem !important;
+}
+
+.h5fontsize{
+    font-size: 1.2rem !important;
+}
+
+.footerColor {
+    background-color: #ebebeb;
+}
+
+footer p {
+    font-size: 14px;
+}
