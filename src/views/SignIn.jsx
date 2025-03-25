@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Home.css";
-import { Button } from "react-bootstrap";
+
 
 export default function SignIn() {
 
@@ -16,7 +16,7 @@ export default function SignIn() {
         const { name, value, type, checked } = e.target;
         setValue((prevValue) => ({
             ...prevValue,
-            [name]: type === "checkbox" ? checked : value, // Correctly update the state
+            [name]: type === "checkbox" ? checked : value,
         }));
     };
       const handleSubmit = (e) => {

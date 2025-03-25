@@ -5,13 +5,6 @@
     position: absolute;
 }
 
-/* .custom-dropdown-toggle:hover,
-.custom-dropdown-toggle:focus,
-.custom-dropdown-toggle:active {
-    background-color: white !important;
-    color: black !important;
-    box-shadow: none !important;
-} */
 
 .custom-dropdown-menu .dropdown-item:hover,
 .custom-dropdown-menu .dropdown-item:focus,
